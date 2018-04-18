@@ -1,0 +1,26 @@
+{
+  "name": "mazenet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daornit/mazenet.git"
+  },
+  "keywords": [
+    "maze"
+  ],
+  "author": "Teams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daornit/mazenet/issues"
+  },
+  "homepage": "https://github.com/Daornit/mazenet#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0"
+  }
+}
