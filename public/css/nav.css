@@ -11,13 +11,12 @@ nav > ul {
   position: relative;
   left: 5%;
   list-style-type: none;
-  width: 50%;
+  width: 72%;
   height: 100%;
+  top: -34px;
 }
 nav > ul > li {
   display: inline-block;
-  position: relative;
-  top: -34px;
 }
 nav > ul > li:hover{
   background-color: rgba(20,20,20,0.2);
@@ -33,6 +32,12 @@ nav > ul > li > a{
 nav > ul > li:first-child{
   font-weight: bold;
   font-size: 20px;
+}
+nav > ul > li:nth-last-child(1){
+  float:right;
+}
+nav > ul > li:nth-last-child(2){
+  float:right;
 }
 #logo{
   display: inline-block;

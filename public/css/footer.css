@@ -1,0 +1,10 @@
+footer{
+  background-color: rgba(20, 20, 20);
+  color: white;
+  text-align:  center;
+  padding: 50px 0 50px 0;
+}
+
+footer >ul >li{
+  text-align: center;
+}
