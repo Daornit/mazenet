@@ -4,9 +4,10 @@ nav{
   z-index: 1;
   width: 100%;
   height: 90px;
-  background-color: rgba(20,20,20,0.5);
+  background-color: rgba(20,20,20,0.0);
+  transition: all 300ms;
 }
-nav > ul {
+.uls {
   display: inline-block;
   position: relative;
   left: 5%;
@@ -14,36 +15,60 @@ nav > ul {
   width: 72%;
   height: 100%;
   top: -34px;
+  transition: all 300ms;
 }
-nav > ul > li {
+.uls > li {
   display: inline-block;
+  height: 100%;
+  transition: all 300ms;
 }
-nav > ul > li:hover{
+.uls > li:hover{
   background-color: rgba(20,20,20,0.2);
 }
-nav > ul > li > a{
+.uls > li > a{
+  position: relative;
+  height: 100%;
   display: block;
   line-height: 90px;
   text-decoration: none;
   color: white;
   padding-left: 15px;
   padding-right: 15px;
+  text-shadow: 2px 2px 2px rgba(20,20,20);
+  transition: all 300ms;
 }
-nav > ul > li:first-child{
+.uls > li:first-child{
   font-weight: bold;
   font-size: 20px;
 }
-nav > ul > li:nth-last-child(1){
+.uls > li:nth-last-child(1){
   float:right;
 }
-nav > ul > li:nth-last-child(2){
+.uls > li:nth-last-child(2){
   float:right;
 }
-#logo{
+.logo{
   display: inline-block;
   width: 220px;
   height: 80px;
   background-color: grey;
   margin-top: 5px;
   margin-left: 60px;
+  position: relative;
+  transition: all 300ms;
+}
+.updated{
+  height: 50px !important;
+  background-color: rgba(20,20,20,0.8) !important;
+}
+.logoUp{
+  top: -7px;
+  height: 40px;
+}
+.elecUp{
+  top: -20px;
+  line-height: 50px;
+}
+.ulUp {
+  top: -3px;
 }
