@@ -1,49 +1,27 @@
     <div class="contian">
-      <div class="slider">
+        <div class="slider">
+        </div>
+        <!-- <div class="sidebar">
+          <div class="sidenews">
+          </div>
+          <div class="sidenews">
+          </div>
+          <div class="sidenews">
+          </div>
+        </div> -->
+
+      <div class="news">
+        <% posts.forEach((post)=>{ %>
+        <div class="card">
+          <div class="bgImage">
+            <img src="<%= post.img %>" alt="baigal"/>
+          </div>
+          <div class="description">
+            <h3><%= post.Title %></h3>
+            <p><%= post.description %></p>
+          </div>
+        </div>
+        <% }); %>
       </div>
-      <div class="card">
-        <h1>Sample1</h1>
-      </div>
-      <div class="card">
-        <h1>Sample2</h1>
-      </div>
-      <div class="card">
-        <h1>Sample3</h1>
-      </div>
-      <div class="card">
-        <h1>Sample4</h1>
-      </div>
-      <div class="card">
-        <h1>Sample5</h1>
-      </div>
-      <div class="card">
-        <h1>Sample6</h1>
-      </div>
-      <div class="card">
-        <h1>Sample7</h1>
-      </div>
-      <div class="card">
-        <h1>Sample8</h1>
-      </div>
-      <div class="card">
-        <h1>Sample9</h1>
-      </div>
-      <div class="card">
-        <h1>Sample10</h1>
-      </div>
-      <div class="card">
-        <h1>Sample11</h1>
-      </div>
-      <div class="card">
-        <h1>Sample12</h1>
-      </div>
-      <div class="card">
-        <h1>Sample13</h1>
-      </div>
-      <div class="card">
-        <h1>Sample14</h1>
-      </div>
-      <div class="card">
-        <h1>Sample15</h1>
-      </div>
+
     </div>
